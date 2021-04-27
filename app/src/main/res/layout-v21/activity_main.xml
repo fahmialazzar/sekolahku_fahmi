@@ -75,15 +75,14 @@
                 android:layout_height="77dp"
                 android:fontFamily="@font/luckiest_guy"
                 android:gravity="center"
-                android:text="profile guru"
+                android:text="jadwal kegiatan"
                 android:textColor="#493636"
                 android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/imageView13"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/kisspng-student-teacher-blackboard-school-the-teacher-who-pointed-to-the-blackboard-5a969000daa2e4" />
+                android:layout_width="134dp"
+                android:layout_height="382dp"
+                android:src="@drawable/Jadwal" />
 
         </androidx.cardview.widget.CardView>
 
