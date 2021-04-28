@@ -111,6 +111,12 @@
                 android:textColor="#493636"
                 android:textSize="24sp" />
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/guru" />
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
