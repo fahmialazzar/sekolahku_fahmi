@@ -7,44 +7,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appbar"
-
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:background="#493636">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/archivo_black"
-            android:gravity="center"
-            android:text="smk syafi'i akrom"
-            android:textColor="#EDDFDF"
-            android:textSize="30sp" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="1002dp">
+        android:layout_height="867dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardView8"
             android:layout_width="380dp"
             android:layout_height="53dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="13dp"
             android:layout_marginRight="13dp"
-            app:cardBackgroundColor="#CFCECE"
+            app:cardBackgroundColor="@android:color/darker_gray"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.099">
+            app:layout_constraintVertical_bias="0.016">
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -56,132 +38,167 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
-            android:layout_width="170dp"
-            android:layout_height="253dp"
+            android:layout_width="177dp"
+            android:layout_height="231dp"
             android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
-            app:cardBackgroundColor="@android:color/darker_gray"
+            app:cardBackgroundColor="@android:color/holo_orange_dark"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.232">
+            app:layout_constraintTop_toBottomOf="@+id/cardView8"
+            app:layout_constraintVertical_bias="0.048">
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="77dp"
                 android:fontFamily="@font/luckiest_guy"
                 android:gravity="center"
-                android:text="jadwal kegiatan"
-                android:textColor="#493636"
+                android:text="tb"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
-                android:layout_width="134dp"
-                android:layout_height="382dp"
-                android:src="@drawable/Jadwal" />
+                android:id="@+id/imageView13"
+                android:layout_width="200dp"
+                android:layout_height="184dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/tb" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
-            android:layout_width="168dp"
-            android:layout_height="167dp"
+            android:layout_width="177dp"
+            android:layout_height="231dp"
             android:layout_marginStart="44dp"
             android:layout_marginLeft="44dp"
-            app:cardBackgroundColor="#aaaaaa"
+            app:cardBackgroundColor="#64A3EF"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintHorizontal_bias="0.921"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.208">
+            app:layout_constraintTop_toBottomOf="@+id/cardView8"
+            app:layout_constraintVertical_bias="0.048">
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="77dp"
                 android:fontFamily="@font/luckiest_guy"
                 android:gravity="center"
-                android:text="jadwal kegiatan"
-                android:textColor="#493636"
-                android:textSize="24sp" />
+                android:text="tkr"
+                android:textColor="#FDF9F9"
+                android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/guru" />
+                android:id="@+id/imageView14"
+                android:layout_width="200dp"
+                android:layout_height="184dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/tkr" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView3"
-            android:layout_width="170dp"
-            android:layout_height="253dp"
+            android:layout_width="177dp"
+            android:layout_height="231dp"
             android:layout_marginStart="31dp"
             android:layout_marginLeft="31dp"
-            android:layout_marginTop="25dp"
-            app:cardBackgroundColor="@android:color/darker_gray"
+            app:cardBackgroundColor="@android:color/holo_blue_bright"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.876"
+            app:layout_constraintHorizontal_bias="0.926"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.483">
+            app:layout_constraintTop_toBottomOf="@+id/cardView2"
+            app:layout_constraintVertical_bias="0.056">
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="77dp"
                 android:fontFamily="@font/luckiest_guy"
                 android:gravity="center"
-                android:text=" lokasi sekolah"
-                android:textColor="#493636"
+                android:text="tkj"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="200dp"
+                android:layout_height="184dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/tkj" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView4"
-            android:layout_width="172dp"
-            android:layout_height="224dp"
-            app:cardBackgroundColor="@android:color/darker_gray"
+            android:layout_width="177dp"
+            android:layout_height="231dp"
+            app:cardBackgroundColor="@android:color/holo_green_light"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintHorizontal_bias="0.085"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.586">
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            app:layout_constraintVertical_bias="0.056">
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="77dp"
                 android:fontFamily="@font/luckiest_guy"
                 android:gravity="center"
-                android:text="daftar jurusan"
-                android:textColor="#493636"
+                android:text="tbsm"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="200dp"
+                android:layout_height="184dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/tsm" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="166dp"
-            android:layout_height="267dp"
-            app:cardBackgroundColor="@android:color/darker_gray"
+            android:layout_width="177dp"
+            android:layout_height="231dp"
+            app:cardBackgroundColor="@android:color/holo_red_dark"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.877"
+            app:layout_constraintHorizontal_bias="0.555"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.896" />
+            app:layout_constraintTop_toBottomOf="@+id/cardView4"
+            app:layout_constraintVertical_bias="0.343">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="rpl"
+                android:textColor="#FBFBFB"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="200dp"
+                android:layout_height="184dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/rpl" />
+
+        </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

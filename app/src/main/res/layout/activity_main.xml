@@ -12,7 +12,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="66dp"
-        android:background="#493636">
+        android:background="#24AF3A">
 
         <TextView
             android:id="@+id/textView"
@@ -31,6 +31,7 @@
         android:layout_height="1279dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardView9"
             android:layout_width="380dp"
             android:layout_height="53dp"
             android:layout_marginStart="16dp"
@@ -44,27 +45,18 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.099">
-
-            <SearchView
-                android:layout_width="369dp"
-                android:layout_height="match_parent" >
-
-            </SearchView>
+            app:layout_constraintVertical_bias="0.072">
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="81dp"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/unnamed_removebg_preview" />
-
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="41dp"
+                android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/search_removebg_preview" />
+                app:srcCompat="@drawable/unnamed_removebg_preview" />
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
         </androidx.cardview.widget.CardView>
 
@@ -80,8 +72,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.232">
+            app:layout_constraintTop_toBottomOf="@+id/cardView9"
+            app:layout_constraintVertical_bias="0.065">
 
             <TextView
                 android:id="@+id/textView2"
@@ -112,10 +104,10 @@
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintHorizontal_bias="0.873"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.208">
+            app:layout_constraintTop_toBottomOf="@+id/cardView9"
+            app:layout_constraintVertical_bias="0.058">
 
             <TextView
                 android:id="@+id/textView3"
@@ -130,7 +122,7 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="139dp"
-                android:layout_height="100dp"
+                android:layout_height="104dp"
                 android:layout_gravity="bottom|center"
                 app:srcCompat="@drawable/Jadwal" />
 
@@ -160,6 +152,13 @@
                 android:text=" lokasi sekolah"
                 android:textColor="#493636"
                 android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="134dp"
+                android:layout_height="195dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/globe" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -216,6 +215,13 @@
                 android:text="ppdb sekolah"
                 android:textColor="#493636"
                 android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="157dp"
+                android:layout_height="144dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/domain" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -240,6 +246,13 @@
                 android:text="info jurusan"
                 android:textColor="#493636"
                 android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="164dp"
+                android:layout_height="177dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/checklist" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -260,9 +273,16 @@
                 android:layout_height="77dp"
                 android:fontFamily="@font/luckiest_guy"
                 android:gravity="center"
-                android:text="info BKK"
+                android:text="informasi BKK"
                 android:textColor="#493636"
                 android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="124dp"
+                android:layout_height="297dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/information" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -284,9 +304,16 @@
                 android:layout_height="77dp"
                 android:fontFamily="@font/luckiest_guy"
                 android:gravity="center"
-                android:text="tentang plikasi"
+                android:text="tentang aplikasi"
                 android:textColor="#493636"
                 android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="111dp"
+                android:layout_height="173dp"
+                android:layout_gravity="bottom|center"
+                app:srcCompat="@drawable/about" />
         </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
